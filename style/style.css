@@ -1,0 +1,70 @@
+.img1{
+    width:100%;
+}
+@font-face {
+    font-family: font1;
+    src: url(/fonts/Cambay-Regular.ttf);
+}
+@font-face {
+    font-family:font2;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+.navigation{
+    list-style-type: none;
+    display:flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    flex-flow: row,nowrap;
+    justify-content: center;
+    align-content: space-between;
+    
+}
+.navigation li{
+    font-size:24px;
+    margin:20px 100px 0px;
+    padding:5px;
+    border-bottom:5px solid black;
+}
+.images{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+main article div img{
+    padding:3px;
+    border-left-style: dotted;
+    border-width:11px;
+    border-color:black;
+}
+.header1{
+    font-size: 64px;
+    text-align: center;
+    font-family: font1,serif;
+}
+main article p {
+    margin:50px;
+    border:2px solid black;
+    border-radius:12px;
+    padding:7px;
+    font-size:20px;
+    font-family:font2,serif;
+
+}
+.form1{
+    border-style: solid;
+    border-color: black;
+    border-width: 10px 13px 5px;
+}
+.form2{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px 13px 10px;
+
+}
+footer form .form1 label, footer form .form2 label{
+    font-size:20px;
+}
+footer form div input{
+    border:none;
+}

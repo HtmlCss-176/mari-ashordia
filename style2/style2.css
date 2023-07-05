@@ -1,0 +1,87 @@
+body{
+    background-color: #ffc0cb;
+}
+@font-face {
+    font-family: Bacasime;
+    src: url(/fonts/BacasimeAntique-Regular.ttf);
+}
+@font-face {
+    font-family: Merriweather;
+    src: url(/fonts/Merriweather-Regular.ttf);
+}
+.threeArticles{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+main article p{
+    font-family: Merriweather;
+}
+main article{
+    width:30%;
+    border:2px solid #fff;
+    padding:15px;
+    margin:10px;
+}
+main article img{
+    width:100%;
+}
+h1,h2{
+    text-align: center;
+    font-family: Bacasime;
+    font-size:35px;
+}
+
+/* table */
+table{
+    width:50%;
+    height:300px;
+    margin:20px auto;
+}
+table td{
+    text-align: center;
+}
+table th{
+    background-color: hsla(320, 40%, 50%,0.4);
+}
+table tr:hover:not(:first-child){
+    background-color: hsla(320, 40%, 29%,0.4);
+    color:rgb(255, 255, 255);
+}
+
+form{
+    text-align: center;
+    margin:40px 0;
+    font-size: 18px;
+    border:6px;
+    border-style:inset;
+    padding:10px;
+    margin:0px 400px;
+}
+#firstInput{
+     background-color: hsla(320, 40%, 50%,0.4);
+    color:white;
+}
+#firstInput:focus{
+    background-color: hsla(324, 86%, 71%,0.4);
+}
+#firstInput:hover{
+    background-color:hsla(324, 35%, 34%,0.4);
+}
+#secondInput{
+    padding:6px;
+    margin:4px;
+    background-color: hsla(320, 40%, 50%,0.4);
+    color:white;
+}
+#secondInput:active{
+    background-color: hsla(324, 86%, 71%,0.4);
+    cursor: pointer;
+}
+#secondInput:hover{
+
+    background-color:hsla(324, 35%, 34%,0.4);
+
+}
