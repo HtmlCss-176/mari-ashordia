@@ -1,0 +1,143 @@
+#header1{
+    text-align: center;
+    font-size: 35px;
+    color:white;
+    text-shadow:0 0 8px #000000;
+}
+#img1,#img2,#img3{
+    width:400px;
+    transition: width 2s,border-radius 2s,transform 2s;
+
+}
+#img1:hover{
+    width:450px;
+    border-radius:20px;
+    transform: rotate(-20deg);
+}
+#img2:hover{
+    width:450px;
+    border-radius:20px;
+    transform: rotate(20deg);
+}
+#img3:hover{
+    width:450px;
+    border-radius:20px;
+    transform: rotate(20deg);
+}
+#images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top:40px;
+
+}
+@keyframes running{
+    from{left:0px;}
+    to{left:100%;}
+}
+#animated{
+    margin-top: 40px;
+    width:100%;
+    font-size:18px;
+    position: relative;
+    animation-name: running;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+#paragraphs p{
+    width:30%;
+}
+#paragraphs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+.flexItems{
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:-20px;
+}
+.flexItems img{
+    width:60px;
+    height:60px;
+}
+#icons img{
+    width:40px;
+    height:40px;
+}
+#logoAndHeader h1{
+    transform: translateY(-25px);
+}
+#flexLists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom:50px;
+}
+#flexLists div ul li{
+    list-style-type: none;
+}
+#flexLists div h3{
+    text-align: center;
+}
+#flexLists div ul li{
+    text-align: left;
+    margin-bottom:5px;
+}
+#flexLists div button{
+    width:210px;
+    padding:6px;
+}
+#flexLists div input{
+    width:193px;
+    padding:6px;
+    margin-bottom:8px;
+}
+main nav a{
+    text-decoration: none;
+    margin:35px;
+    font-size:19px;
+    color: #569699;
+    padding:10px;
+}
+main nav a:hover{
+    background-color: #E6B697;
+    color:white;
+}
+main nav{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+footer{
+    background-color: #E6B697;
+ 
+}
+footer div button{
+    background-color: #569699;
+    border-radius: 10px;
+    color:white;
+}
+footer div input{
+     border-radius: 10px;
+}
+footer div input:focus{
+    background-color: #97E6DC;
+}
+#movies{
+    width:150px;
+}
+#headerImg{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color: antiquewhite;
+}
